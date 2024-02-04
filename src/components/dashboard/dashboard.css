@@ -1,0 +1,101 @@
+.dashboard {
+  margin-top: -2px;
+  padding: 30px 50px;
+  border-left: 6px solid var(--body-color);
+  border-bottom: 6px solid var(--body-color);
+  background-color: var(--container-color);
+}
+
+.site__choice {
+  padding: 30px 60px;
+  border-left: 6px solid var(--body-color);
+  border-bottom: 6px solid var(--body-color);
+  background-color: var(--container-color);
+}
+
+.site__pic {
+  padding: 60px 60px;
+  border-left: 6px solid var(--body-color);
+  border-bottom: 6px solid var(--body-color);
+  background-color: var(--container-color);
+}
+.dashcard {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.site {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--title-color-dark);
+}
+
+.user__profile {
+  background: url("../../assets/Iconinteractions.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  order: 1;
+  justify-self: center;
+  width: 23px;
+  height: 23px;
+}
+
+.site__content {
+  grid-template-columns: 1fr 20rem;
+  width: 100%;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+@media only screen and (max-width: 999px) {
+  .header_searchbox {
+    width: 50%;
+    margin-right: 0rem;
+  }
+
+  .hide_on_contract {
+    display: none;
+  }
+
+  .site__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dash__content {
+  grid-template-columns: 1fr 4rem;
+  width: 100%;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.btn__grp {
+  display: flex;
+  font-size: var(--h3-font-size);
+  justify-content: flex-start;
+}
+/* ////////////////////////////////////////////// */
+
+.status {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3rem 5.5rem 3rem 5.5rem 3rem;
+  justify-items: center;
+  color: #5555556b;
+  align-items: center;
+}
+
+.num {
+  font-size: 1rem;
+  font-weight: var(--font-semi-bold);
+  border-bottom: 3px solid;
+  width: 2rem;
+  text-align: center;
+}
+
+.active {
+  color: var(--title-color-dark);
+  fill: var(--title-color-dark);
+}

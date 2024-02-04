@@ -1,0 +1,17 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  width: 273px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.status-bar__progress {
+  height: 100%;
+  background-color: var(--higlight-color);
+  transition: width 0.3s ease;
+}
+
+.status-bar--custom {
+  background-color: var(--higlight-color);
+}
